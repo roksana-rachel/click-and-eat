@@ -1,0 +1,498 @@
+{
+  "category": [
+    {
+      "categoryName": "Salad",
+      "categoryId": "c1"
+    },
+    {
+      "categoryName": "Dessert",
+      "categoryId": "c2"
+    },
+    {
+      "categoryName": "Mexican",
+      "categoryId": "c3"
+    },
+    {
+      "categoryName": "Japanese",
+      "categoryId": "c4"
+    },
+    {
+      "categoryName": "Pasta",
+      "categoryId": "c5"
+    },
+    {
+      "categoryName": "Fast Food",
+      "categoryId": "c6"
+    }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "name": "Salad",
+      "price": 5,
+      "categoryId": "c1",
+      "image": "salad.png",
+      "allergens": ["almonds"]
+    },
+    {
+      "id": 2,
+      "name": "Pancakes",
+      "price": 5,
+      "categoryId": "c2",
+      "image": "pancakes.png",
+      "allergens": ["milk", "eggs", "wheat"]
+    },
+    {
+      "id": 3,
+      "name": "Tacos",
+      "price": 6,
+      "categoryId": "c3",
+      "image": "tacos.png",
+      "allergens": ["wheat"]
+    },
+    {
+      "id": 4,
+      "name": "Cake",
+      "price": 4.5,
+      "categoryId": "c2",
+      "image": "scake.png",
+      "allergens": ["milk", "eggs"]
+    },
+    {
+      "id": 5,
+      "name": "Ramen",
+      "price": 12,
+      "categoryId": "c4",
+      "image": "ramen.png",
+      "allergens": ["eggs", "soy", "wheat"]
+    },
+    {
+      "id": 6,
+      "name": "Farfalle",
+      "price": 7,
+      "categoryId": "c5",
+      "image": "farfalle.png",
+      "allergens": ["eggs", "wheat"]
+    },
+    {
+      "id": 7,
+      "name": "Pizza",
+      "price": 15,
+      "categoryId": "c6",
+      "image": "pizza.png",
+      "allergens": ["eggs", "wheat"]
+    },
+    {
+      "id": 8,
+      "name": "Sushi",
+      "price": 8,
+      "categoryId": "c4",
+      "image": "sushi.png",
+      "allergens": ["soy"]
+    },
+    {
+      "id": 9,
+      "name": "Burger",
+      "price": 6,
+      "categoryId": "c6",
+      "image": "burger.png",
+      "allergens": ["wheat"]
+    },
+    {
+      "id": 10,
+      "name": "Penne",
+      "price": 7,
+      "categoryId": "c5",
+      "image": "penne.png",
+      "allergens": ["eggs", "wheat"]
+    },
+    {
+      "id": 11,
+      "name": "Fusilli",
+      "price": 6.5,
+      "categoryId": "c5",
+      "image": "fusilli.png",
+      "allergens": ["eggs", "wheat"]
+    },
+    {
+      "id": 12,
+      "name": "Tiramisu",
+      "price": 4.5,
+      "categoryId": "c2",
+      "image": "tiramisu.png",
+      "allergens": ["milk"]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1231",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "street": "Legnicka",
+      "building": "48",
+      "city": "Wrocław",
+      "zip": "54-202",
+      "email": "janedoe@example.com",
+      "phone": "111111222",
+      "notes": "additional info",
+      "payment": "PayPal",
+      "price": 24,
+      "date": "19/09/2022",
+      "items": [
+        {
+          "id": 4,
+          "name": "Strawberry Cake",
+          "quantity": 4
+        },
+        {
+          "id": 4,
+          "name": "Tacos",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1221",
+      "firstName": "John",
+      "lastName": "Doe",
+      "street": "Kwiatowa",
+      "building": "8",
+      "city": "Wrocław",
+      "zip": "54-202",
+      "email": "johndoe@example.com",
+      "phone": "771111222",
+      "notes": "",
+      "payment": "PayPal",
+      "price": 24,
+      "date": "20/9/2022",
+      "items": [
+        {
+          "id": 4,
+          "name": "Strawberry Cake",
+          "quantity": 4
+        },
+        {
+          "id": 4,
+          "name": "Tacos",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Jane",
+      "street": "Crosby",
+      "building": "12",
+      "city": "New York",
+      "zip": "22-222",
+      "email": "mam@mm.com",
+      "phone": "",
+      "notes": "",
+      "id": "16B02D73",
+      "payment": "PayPal",
+      "price": 79,
+      "date": "10/10/2022",
+      "items": [
+        {
+          "productId": 4,
+          "name": "Cake",
+          "price": 4.5,
+          "categoryId": "c2",
+          "image": "scake.png",
+          "quantity": 4
+        },
+        {
+          "productId": 3,
+          "name": "Tacos",
+          "price": 6,
+          "categoryId": "c3",
+          "image": "tacos.png",
+          "quantity": 3
+        },
+        {
+          "productId": 5,
+          "name": "Ramen",
+          "price": 12,
+          "categoryId": "c4",
+          "image": "ramen.png",
+          "quantity": 3
+        },
+        {
+          "productId": 2,
+          "name": "Pancakes",
+          "price": 5,
+          "categoryId": "c2",
+          "image": "pancakes.png",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "firstName": "Rose",
+      "lastName": "Thorne",
+      "street": "Kwiatowa",
+      "building": "23",
+      "city": "Poznań",
+      "zip": "25-234",
+      "email": "mam@mm.com",
+      "phone": "",
+      "notes": "",
+      "id": "3BFB3DA9",
+      "payment": "PayPal",
+      "price": 79,
+      "date": "10/10/2022",
+      "items": [
+        {
+          "productId": 4,
+          "name": "Strawberry Cake",
+          "price": 4.5,
+          "categoryId": "c2",
+          "image": "scake.png",
+          "quantity": 4
+        },
+        {
+          "productId": 3,
+          "name": "Tacos",
+          "price": 6,
+          "categoryId": "c3",
+          "image": "tacos.png",
+          "quantity": 3
+        },
+        {
+          "productId": 5,
+          "name": "Ramen",
+          "price": 12,
+          "categoryId": "c4",
+          "image": "ramen.png",
+          "quantity": 3
+        },
+        {
+          "productId": 2,
+          "name": "Pancakes",
+          "price": 5,
+          "categoryId": "c2",
+          "image": "pancakes.png",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Dry",
+      "street": "Wodna",
+      "building": "134",
+      "city": "Warszawa",
+      "zip": "55-555",
+      "email": "mam@mm.com",
+      "phone": "",
+      "notes": "",
+      "id": "B2C3585C",
+      "payment": "PayU",
+      "price": 79,
+      "date": "10/10/2022",
+      "items": [
+        {
+          "productId": 4,
+          "name": "Strawberry Cake",
+          "price": 4.5,
+          "categoryId": "c2",
+          "image": "scake.png",
+          "quantity": 4
+        },
+        {
+          "productId": 3,
+          "name": "Tacos",
+          "price": 6,
+          "categoryId": "c3",
+          "image": "tacos.png",
+          "quantity": 3
+        },
+        {
+          "productId": 5,
+          "name": "Ramen",
+          "price": 12,
+          "categoryId": "c4",
+          "image": "ramen.png",
+          "quantity": 3
+        },
+        {
+          "productId": 2,
+          "name": "Pancakes",
+          "price": 5,
+          "categoryId": "c2",
+          "image": "pancakes.png",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "firstName": "Tess",
+      "lastName": "Tom",
+      "street": "Trent",
+      "building": "21",
+      "city": "Washington",
+      "zip": "23-335",
+      "email": "mam@mm.com",
+      "phone": "",
+      "notes": "",
+      "id": "06B45100",
+      "payment": "Blik",
+      "price": 28,
+      "date": "10/10/2022",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Salad",
+          "price": 5,
+          "image": "salad.png",
+          "quantity": 1
+        },
+        {
+          "productId": 6,
+          "name": "Farfalle",
+          "price": 7,
+          "image": "farfalle.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "firstName": "Jenny",
+      "lastName": "Doe",
+      "street": "Crosby",
+      "building": "151",
+      "city": "New York",
+      "zip": "55-555",
+      "email": "mam@mm.com",
+      "phone": "",
+      "notes": "",
+      "id": "84A33FD0",
+      "payment": "PayPal",
+      "price": 40,
+      "date": "11/10/2022",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Salad",
+          "price": 5,
+          "image": "salad.png",
+          "quantity": 2
+        },
+        {
+          "productId": 6,
+          "name": "Farfalle",
+          "price": 7,
+          "image": "farfalle.png",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "name": "Tacos",
+          "price": 6,
+          "image": "tacos.png",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "name": "Pancakes",
+          "price": 5,
+          "image": "pancakes.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "firstName": "Evan",
+      "lastName": "Hansen",
+      "street": "Broadway",
+      "building": "25",
+      "city": "gr",
+      "zip": "33-456",
+      "email": "aa@aa.com",
+      "phone": "",
+      "notes": "",
+      "id": "E2E19DD2",
+      "payment": "PayPal",
+      "price": 15,
+      "date": "11/10/2022",
+      "items": [
+        {
+          "productId": 3,
+          "name": "Tacos",
+          "price": 6,
+          "image": "tacos.png",
+          "quantity": 1
+        },
+        {
+          "productId": 6,
+          "name": "Farfalle",
+          "price": 7,
+          "image": "farfalle.png",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Hank",
+      "street": "Downy",
+      "building": "47",
+      "city": "Washington",
+      "zip": "33-009",
+      "email": "mam@mm.com",
+      "phone": "666666777",
+      "notes": "",
+      "id": "F52DBE08",
+      "payment": "PayPal",
+      "price": 23,
+      "date": "17/10/2022",
+      "items": [
+        {
+          "productId": 6,
+          "name": "Farfalle",
+          "price": 7,
+          "image": "farfalle.png",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "firstName": "Ann",
+      "lastName": "Green",
+      "street": "Kwiatowa",
+      "building": "54",
+      "city": "Gdynia",
+      "zip": "55-545",
+      "email": "mam@mm.com",
+      "phone": "777555444",
+      "notes": "Leave the order at the door",
+      "id": "EB8CC3B7",
+      "payment": "PayU",
+      "price": 45,
+      "date": "21/10/2022",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Salad",
+          "price": 5,
+          "image": "salad.png",
+          "quantity": 4
+        },
+        {
+          "productId": 6,
+          "name": "Farfalle",
+          "price": 7,
+          "image": "farfalle.png",
+          "quantity": 2
+        },
+        {
+          "productId": 4,
+          "name": "Cake",
+          "price": 4.5,
+          "image": "scake.png",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

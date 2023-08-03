@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`summary item renders correctly 1`] = `
+<div
+  className="sc-bczRLJ jaAqGV"
+  data-testid="summary-item"
+>
+  <img
+    className="sc-eCYdqJ eYzrYi"
+    src="/assets/food/undefined"
+  />
+  <h5
+    className="sc-gsnTZi bLgvay"
+  />
+  <h5
+    className="sc-gsnTZi sc-dkzDqf bLgvay isIQSg"
+  >
+    x
+  </h5>
+  <h5
+    className="sc-gsnTZi sc-dkzDqf sc-hKMtZM bLgvay isIQSg dIhHBk"
+  >
+    NaN
+     $
+  </h5>
+</div>
+`;
